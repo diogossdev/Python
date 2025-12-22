@@ -12,4 +12,4 @@ espaco = nome.count(' ')
 print(f'Seu nome tem {comprimento - espaco} letras.')
 
 nome_list = nome.split()
-print(f'Seu primeiro nome tem {len(nome_list[0])} letras')
+print(f'Seu primeiro nome é {nome_list[0]} e tem {len(nome_list[0])} letras')

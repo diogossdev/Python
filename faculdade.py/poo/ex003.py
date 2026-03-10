@@ -90,7 +90,7 @@ print()
 print('Agora iremos curar o jogador!')
 
 while True:
-    cura = int(input('Digite o valor da poção (1 a 100): '))
+    cura = int(input('Digite o valor da poção (maior que 0): '))
 
     try:
         pocao.poder_cura = cura

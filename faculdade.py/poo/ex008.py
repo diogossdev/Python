@@ -57,9 +57,8 @@ class Banco:
     for i in self._contas:
       if nova_conta.numero == i.numero:
         return "Não foi possível criar a conta --- Número de banco já usado --- "
-      else:
-        self._contas.append(nova_conta)
-        return f"Conta do usuário(a) {nova_conta.nome} criado com sucesso!"
+    self._contas.append(nova_conta)
+    return f"Conta do usuário(a) {nova_conta.nome} criado com sucesso!"
     
 
   def remove_conta(self, excluir_numero):
